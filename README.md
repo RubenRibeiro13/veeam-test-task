@@ -1,6 +1,6 @@
 # Folder Synchronization Script
 ## Description
-This Python script synchronizes the contents of two folders and logs the corresponding operations to a file and to the console output. The synchronization is periodic and one-way, which means the replica folder is a mirror of the source folder.
+This Python script synchronizes the contents of two folders and logs the corresponding operations to a log file and to the console output. The synchronization is periodic and one-way, which means the replica folder is a mirror of the source folder.
 
 ## Usage
 ### Basic Usage
@@ -68,7 +68,7 @@ python sync_folders.py source_folder replica_folder log_file interval
 - Result: The replica folder is also emptied.
 
 14. Performance and Stress
-- Use a source folder with large files (at least 100 MB) and/or a large number of files (at least 1000) and run the script.
+- Test: Use a source folder with large files (at least 100 MB) and/or a large number of files (at least 1000) and run the script.
 - Result: The script completes the synchronization successfully within a reasonable amount of time.
 
 15. Periodic Sync
